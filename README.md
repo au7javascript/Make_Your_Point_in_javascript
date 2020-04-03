@@ -9,3 +9,4 @@ Username- au7javascript Password- fakepasswordfake
 Email- au7javascript@gmail.com Password- fakepasswordfake
 
 Add ToDos
+Structure folders as you want.
