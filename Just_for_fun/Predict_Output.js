@@ -3,7 +3,7 @@ function callViaTimeOut(n){
     if(n>limit){
         return
     }
-    setTimeout(callViaTimeOut,0,n+1);
+    setTimeout(callViaTimeOut,0,n+1); //setTimeout(function_to_be_called,after time,parameters_of_function)
     console.log(n)
 }
 
