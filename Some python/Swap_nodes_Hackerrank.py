@@ -3,7 +3,7 @@ import sys
 sys.setrecursionlimit(20000)
 def swapNodes(indexes, queries):
     ans=[]
-    indexes.insert(0,None)  #inserting None in beginning to make access child with
+    indexes.insert(0,None)  #inserting None in beginning to make child access with
                             #indexes[parent] instead of indexes[parent-1].
                             #indexes[parent][0]:left child of parent
                             #indexes[parent][1]:right child pf parent
